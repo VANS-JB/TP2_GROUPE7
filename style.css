@@ -1,9 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
-*{
+
+/* Bebou CSS debut */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(slide-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    margin-bottom: 100px;
+}
+
+#flex-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+nav ul  {
+     display: flex;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul li {
+    margin: 15px;
+    list-style: none;
+}
+
+a:hover {
+    color: orangered;
+} 
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#btn1 {
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+#petro {
+    margin-top: 5rem;
+    margin-left: 11rem;
+
+}
+
+#get {
+    font-size: 3rem;
+    color: white;
+}
+
+.ready {
+    color: orangered;
+}
+
+hr {
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#petro p {
+    color: white;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+
+#button-div {
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+#btn2 {
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+   
+}
+
+#btn3 {
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    background-color: OR;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    
+}
+
+
+
+/* Bebou CSS FIN */
+
+
+
+
 
   /* Style CSS Ivans debut */
 
@@ -134,12 +255,12 @@ body {
     margin-top: 4rem;
 }
 
-img {
+/* img {
     height: 17rem;
     width: 20rem;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-}
+} */
 
 .logo {
     margin-left: 40px;
